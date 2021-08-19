@@ -1,0 +1,7 @@
+
+<h1>List</h1>
+  <p> <strong>Name:</strong>
+ <%= @list.name %></p>
+
+ <h2> <%= link_to "Return to lists", lists_path, class: 'btn btn-primary' %><h2>
+ <h2> <%= link_to "Add a movie", new_list_bookmark_path(@list), class: 'btn btn-primary' %><h2>
